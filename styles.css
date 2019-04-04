@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Crimson Text', serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+legend {
+    font-family: inherit;
+    font-size: 130%;
+}
+
+.email-box {
+    font-family: inherit;
+    font-size: 110%;
+    width: 10rem
+}
+
+.message-box {
+    font-family: inherit;
+    font-size: 100%;
+    width: 20rem;
+    height: 5rem;
+}
+
+.reply-query {
+    font-family: inherit;
+    font-size: 110%;
+}
+
+input:focus,
+textarea:focus {
+    background: rgba(0, 0, 0, .05);
+    border-radius: 0.3125rem;
+    outline: none;
+}
+
+label {
+    font-family: inherit;
+    font-size: 120%;
+}
+
+.submit-button {
+    font-family: inherit;
+    font-size: 120%;
+}

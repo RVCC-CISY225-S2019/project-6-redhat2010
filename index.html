@@ -3,19 +3,17 @@
 
 <head>
     <title>About Me</title>
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/nav-style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!-- skip link -->
     <a href="#main" class="skip">Skip to main</a>
-    <!-- start of header -->
     <header id="header" class="header">
         <nav class="navbar">
             <span class="navbar-toggle" id="js-navbar-toggle">
@@ -46,236 +44,152 @@
             </ul>
         </nav>
     </header>
-    <!-- end of header -->
-    <!-- start of main content -->
-    <!--    why put tabindex of -1 on skiplink target -  https://axesslab.com/skip-links/ -->
     <main id="main" tabindex="-1" class="main">
-        <!-- start of bio section -->
         <section class="hero">
             <div class="content">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="images/lk-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/lk-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/lk-small.jpg">
-                    <img class="profile" src="images/lk-xsmall.jpg" alt="This is a picture of me">
+                    <source media="(min-width: 1024px)" srcset="images/image_of_me-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/image_of_me-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/image_of_me-small.jpg">
+                    <img src="images/image_of_me-xsmall.jpg" alt="This is a picture of me.">
                 </picture>
-                <p class="my-name">Lyan Kent</p>
-                <p class="my-location">Branchburg, NJ</p>
+                <p class="my-name">Graham Wandless</p>
+                <p class="my-location">Hampton, NJ</p>
             </div>
         </section>
-        <section id="about-me" class="about-me">
+        <section class="about-me">
             <div class="content">
                 <div class="about-content">
                     <p class="iama">I want to be...</p>
-                    <p class="my-info">a web developer master!</p>
+                    <p class="my-info">a computer programmer!</p>
                     <p class="iama">My favorite way to work is...</p>
-                    <p class="my-info">late at night with large headphones and lots of coffee.</p>
+                    <p class="my-info">in bursts, taking breaks as necessary.</p>
                     <p class="iama">In my free time, I like to...</p>
-                    <p class="my-info">run through the park, read sci-fi novels, and redesign my personal site using
-                        whatever new tech I want to learn.</p>
+                    <p class="my-info">read books, particularly fantasy, or play video games.</p>
                 </div>
             </div>
         </section>
-        <!-- end of bio section -->
         <div class="back-to-top">
             <a href="#">Back to Top</a>
         </div>
-        <!-- start of photo gallery -->
-        <section id="pictures" class="gallery">
-            <h1 class="gallery-title">My Abstract Photo Gallery</h1>
-            <figure class="fig1">
+        <hr>
+        <section>
+            <figure>
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="images/fickle-1a-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/fickle-1a-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/fickle-1a-small.jpg">
-                    <img src="images/fickle-1a-xsmall.jpg" alt="an abstract photo">
+                    <source media="(min-width: 1024px)" srcset="images/itty1-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/itty1-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/itty1-small.jpg">
+                    <img src="images/itty1-xsmall.jpg" alt="Itty in a cat tunnel.">
                 </picture>
-                <figcaption>Abstract Photo - Fickle Stream 1</figcaption>
+                <figcaption>Itty in a cat tunnel.</figcaption>
             </figure>
             <hr>
-            <figure class="fig2">
+            <figure>
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="images/fickle-5-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/fickle-5-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/fickle-5-small.jpg">
-                    <img src="images/fickle-5-xsmall.jpg" alt="an abstract photo">
+                    <source media="(min-width: 1024px)" srcset="images/itty2-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/itty2-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/itty2-small.jpg">
+                    <img src="images/itty2-xsmall.jpg" alt="Itty on a chair.">
                 </picture>
-                <figcaption>Abstract Photo - Fickle Stream 5</figcaption>
+                <figcaption>Itty on a chair.</figcaption>
             </figure>
             <hr>
-            <figure class="fig3">
+            <figure>
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="images/fickle-6-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/fickle-6-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/fickle-6-small.jpg">
-                    <img src="images/fickle-6-xsmall.jpg" alt="an abstract photo">
+                    <source media="(min-width: 1024px)" srcset="images/itty3-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/itty3-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/itty3-small.jpg">
+                    <img src="images/itty3-xsmall.jpg" alt="Itty on my lap.">
                 </picture>
-                <figcaption>Abstract Photo - Fickle Stream 6</figcaption>
+                <figcaption>Itty on my lap.</figcaption>
             </figure>
         </section>
-        <!-- end of photo gallery -->
         <div class="back-to-top">
             <a href="#">Back to Top</a>
         </div>
-        <hr class="mobile-first">
-        <!-- start of Sherlock Holmes story -->
-        <article id="story" class="story">
-            <h1>Sherlock Holmes</h1>
-            <p>I was very angry, for this was the third demand during the month. 'You shall not have a farthing from
-                me,' I cried, on which he bowed and left the room without another word.</p>
+        <hr>
+        <article class="story">
+            <h1>Excerpt from Dracula</h1>
+            <p>"It is perhaps well," he said, "that at our meeting after our visit to Carfax we decided not to do anything with the earth-boxes that lay there. Had we done so, the Count must have guessed our purpose, and would doubtless have taken measures in advance to frustrate such an effort with regard to the others; but now he does not know our intentions. Nay, more, in all probability, he does not know that such a power exists to us as can sterilise his lairs, so that he cannot use them as of old. We are now so much further advanced in our knowledge as to their disposition that, when we have examined the house in Piccadilly, we may track the very last of them. To-day, then, is ours; and in it rests our hope. The sun that rose on our sorrow this morning guards us in its course. Until it sets to-night, that monster must retain whatever form he now has. He is confined within the limitations of his earthly envelope. He cannot melt into thin air nor disappear through cracks or chinks or crannies. If he go through a doorway, he must open the door like a mortal. And so we have this day to hunt out all his lairs and sterilise them. So we shall, if we have not yet catch him and destroy him, drive him to bay in some place where the catching and the destroying shall be, in time, sure." Here I started up for I could not contain myself at the thought that the minutes and seconds so preciously laden with Mina's life and happiness were flying from us, since whilst we talked action was impossible. But Van Helsing held up his hand warningly. "Nay, friend Jonathan," he said, "in this, the quickest way home is the longest way, so your proverb say. We shall all act and act with desperate quick, when the time has come. But think, in all probable the key of the situation is in that house in Piccadilly. The Count may have many houses which he has bought. Of them he will have deeds of purchase, keys and other things. He will have paper that he write on; he will have his book of cheques. There are many belongings that he must have somewhere; why not in this place so central, so quiet, where he come and go by the front or the back at all hour, when in the very vast of the traffic there is none to notice. We shall go there and search that house; and when we learn what it holds, then we do what our friend Arthur call, in his phrases of hunt 'stop the earths' and so we run down our old fox--so? is it not?"</p>
 
-            <p>When he was gone I unlocked my bureau, made sure that my treasure was safe, and locked it again. Then I
-                started to go round the house to see that all was secure--a duty which I usually leave to Mary but which
-                I thought it well to perform myself that night. As I came down the stairs I saw Mary herself at the side
-                window of the hall, which she closed and fastened as I approached.</p>
+            <p>"Then let us come at once," I cried, "we are wasting the precious, precious time!" The Professor did not move, but simply said:--</p>
 
-            <p>'Tell me, dad,' said she, looking, I thought, a little disturbed, 'did you give Lucy, the maid, leave to
-                go out to-night?'</p>
+            <p>"And how are we to get into that house in Piccadilly?"</p>
 
-            <p>'Certainly not.'</p>
+            <p>"Any way!" I cried. "We shall break in if need be."</p>
 
-            <p>'She came in just now by the back door. I have no doubt that she has only been to the side gate to see
-                someone, but I think that it is hardly safe and should be stopped.'</p>
+            <p>"And your police; where will they be, and what will they say?"</p>
 
-            <p>'You must speak to her in the morning, or I will if you prefer it. Are you sure that everything is
-                fastened?'</p>
+            <p>I was staggered; but I knew that if he wished to delay he had a good reason for it. So I said, as quietly as I could:--</p>
 
-            <p>'Quite sure, dad.'</p>
+            <p>"Don't wait more than need be; you know, I am sure, what torture I am in."</p>
 
-            <p>'Then, good-night.' I kissed her and went up to my bedroom again, where I was soon asleep.</p>
+            <p>"Ah, my child, that I do; and indeed there is no wish of me to add to your anguish. But just think, what can we do, until all the world be at movement. Then will come our time. I have thought and thought, and it seems to me that the simplest way is the best of all. Now we wish to get into the house, but we have no key; is it not so?" I nodded.</p>
 
-            <p>I am endeavouring to tell you everything, Mr. Holmes, which may have any bearing upon the case, but I beg
-                that you will question me upon any point which I do not make clear."</p>
+            <p>"Now suppose that you were, in truth, the owner of that house, and could not still get it; and think there was to you no conscience of the housebreaker, what would you do?"</p>
 
-            <p>On the contrary, your statement is singularly lucid."</p>
+            <p>"I should get a respectable locksmith, and set him to work to pick the lock for me."</p>
 
-            <p>I come to a part of my story now in which I should wish to be particularly so. I am not a very heavy
-                sleeper, and the anxiety in my mind tended, no doubt, to make me even less so than usual. About two in
-                the morning, then, I was awakened by some sound in the house. It had ceased ere I was wide awake, but it
-                had left an impression behind it as though a window had gently closed somewhere. I lay listening with
-                all my ears. Suddenly, to my horror, there was a distinct sound of footsteps moving softly in the next
-                room. I slipped out of bed, all palpitating with fear, and peeped round the corner of my dressing-room
-                door.</p>
+            <p>"And your police, they would interfere, would they not?"</p>
 
-            <p>'Arthur!' I screamed, 'you villain! you thief! How dare you touch that coronet?'</p>
+            <p>"Oh, no! not if they knew the man was properly employed."</p>
 
-            <p>The gas was half up, as I had left it, and my unhappy boy, dressed only in his shirt and trousers, was
-                standing beside the light, holding the coronet in his hands. He appeared to be wrenching at it, or
-                bending it with all his strength. At my cry he dropped it from his grasp and turned as pale as death. I
-                snatched it up and examined it. One of the gold corners, with three of the beryls in it, was missing.
-            </p>
+            <p>"Then," he looked at me as keenly as he spoke, "all that is in doubt is the conscience of the employer, and the belief of your policemen as to whether or no that employer has a good conscience or a bad one. Your police must indeed be zealous men and clever--oh, so clever!--in reading the heart, that they trouble themselves in such matter. No, no, my friend Jonathan, you go take the lock off a hundred empty house in this your London, or of any city in the world; and if you do it as such things are rightly done, and at the time such things are rightly done, no one will interfere. I have read of a gentleman who owned a so fine house in London, and when he went for months of summer to Switzerland and lock up his house, some burglar came and broke window at back and got in. Then he went and made open the shutters in front and walk out and in through the door, before the very eyes of the police. Then he have an auction in that house, and advertise it, and put up big notice; and when the day come he sell off by a great auctioneer all the goods of that other man who own them. Then he go to a builder, and he sell him that house, making an agreement that he pull it down and take all away within a certain time. And your police and other authority help him all they can. And when that owner come back from his holiday in Switzerland he find only an empty hole where his house had been. This was all done en règle; and in our work we shall be en règle too. We shall not go so early that the policemen who have then little to think of, shall deem it strange; but we shall go after ten o'clock, when there are many about, and such things would be done were we indeed owners of the house."</p>
 
-            <p>'You blackguard!' I shouted, beside myself with rage. 'You have destroyed it! You have dishonoured me
-                forever! Where are the jewels which you have stolen?'</p>
+            <p>I could not but see how right he was and the terrible despair of Mina's face became relaxed a thought; there was hope in such good counsel. Van Helsing went on:--</p>
 
-            <p>'Stolen!' he cried.</p>
+            <p>"When once within that house we may find more clues; at any rate some of us can remain there whilst the rest find the other places where there be more earth-boxes--at Bermondsey and Mile End."</p>
 
-            <p>'Yes, thief!' I roared, shaking him by the shoulder.</p>
+            <p>Lord Godalming stood up. "I can be of some use here," he said. "I shall wire to my people to have horses and carriages where they will be most convenient."</p>
 
-            <p>'There are none missing. There cannot be any missing,' said he.</p>
-
-            <p>'There are three missing. And you know where they are. Must I call you a liar as well as a thief? Did I
-                not see you trying to tear off another piece?'</p>
-
-            <p>'You have called me names enough,' said he, 'I will not stand it any longer. I shall not say another word
-                about this business, since you have chosen to insult me. I will leave your house in the morning and make
-                my own way in the world.'</p>
-
-            <p>'You shall leave it in the hands of the police!' I cried half-mad with grief and rage. 'I shall have this
-                matter probed to the bottom.'</p>
-
-            <p>'You shall learn nothing from me,' said he with a passion such as I should not have thought was in his
-                nature. 'If you choose to call the police, let the police find what they can.'</p>
-
-            <p>By this time the whole house was astir, for I had raised my voice in my anger. Mary was the first to rush
-                into my room, and, at the sight of the coronet and of Arthur's face, she read the whole story and, with
-                a scream, fell down senseless on the ground. I sent the house-maid for the police and put the
-                investigation into their hands at once. When the inspector and a constable entered the house, Arthur,
-                who had stood sullenly with his arms folded, asked me whether it was my intention to charge him with
-                theft. I answered that it had ceased to be a private matter, but had become a public one, since the
-                ruined coronet was national property. I was determined that the law should have its way in everything.
-            </p>
-
-            <p>'At least,' said he, 'you will not have me arrested at once. It would be to your advantage as well as
-                mine if I might leave the house for five minutes.'</p>
-
-            <p>'That you may get away, or perhaps that you may conceal what you have stolen,' said I. And then,
-                realising the dreadful position in which I was placed, I implored him to remember that not only my
-                honour but that of one who was far greater than I was at stake; and that he threatened to raise a
-                scandal which would convulse the nation. He might avert it all if he would but tell me what he had done
-                with the three missing stones.</p>
-
-            <p>'You may as well face the matter,' said I; 'you have been caught in the act, and no confession could make
-                your guilt more heinous. If you but make such reparation as is in your power, by telling us where the
-                beryls are, all shall be forgiven and forgotten.'</p>
-
-            <p>'Keep your forgiveness for those who ask for it,' he answered, turning away from me with a sneer. I saw
-                that he was too hardened for any words of mine to influence him. There was but one way for it. I called
-                in the inspector and gave him into custody. A search was made at once not only of his person but of his
-                room and of every portion of the house where he could possibly have concealed the gems; but no trace of
-                them could be found, nor would the wretched boy open his mouth for all our persuasions and our threats.
-                This morning he was removed to a cell, and I, after going through all the police formalities, have
-                hurried round to you to implore you to use your skill in unravelling the matter. The police have openly
-                confessed that they can at present make nothing of it. You may go to any expense which you think
-                necessary. I have already offered a reward of 1000 pounds. My God, what shall I do! I have lost my
-                honour, my gems, and my son in one night. Oh, what shall I do!"</p>
-
-            <p>He put a hand on either side of his head and rocked himself to and fro, droning to himself like a child
-                whose grief has got beyond words.</p>
-
-            <p>Sherlock Holmes sat silent for some few minutes, with his brows knitted and his eyes fixed upon the fire.
-            </p>
-
-            <p>Do you receive much company?" he asked.</p>
-
-            <p>None save my partner with his family and an occasional friend of Arthur's. Sir George Burnwell has been
-                several times lately. No one else, I think."</p>
-
-            <p>Do you go out much in society?"</p>
+            <p>"Look here, old fellow," said Morris, "it is a capital idea to have all ready in case we want to go horsebacking; but don't you think that one of your snappy carriages with its heraldic adornments in a byway of Walworth or Mile End would attract too much attention for our purposes? It seems to me that we ought to take cabs when we go south or east; and even leave them somewhere near the neighbourhood we are going to."</p>
         </article>
-        <!-- end of Sherlock Holmes story -->
     </main>
-    <!-- end of main content -->
     <div class="back-to-top">
         <a href="#">Back to Top</a>
     </div>
-    <hr class="mobile-first">
-    <!-- start of contact form -->
-    <section id="contact" class="form-container">
+    <hr>
+    <section class="form-container">
         <h1>Get in Touch</h1>
-        <br class="mobile-first"><br class="mobile-first">
-        <div>
-            <form>
-                <fieldset>
-                    <legend>&nbsp;&nbsp; F O R M &nbsp;G O E S &nbsp; H E R E&nbsp;&nbsp;</legend>
-                    <br class="mobile-first"><br class="mobile-first">
-                    <p>
-                        &nbsp;L E F T&nbsp;&nbsp;E M P T Y&nbsp;&nbsp;O N&nbsp;&nbsp;P U R P O S E&nbsp;
-                    </p>
-                    <br class="mobile-first"><br class="mobile-first">
+        <form class="contact" method="POST" action="https://formspree.io/graham@wandless.net">
+            <fieldset class="form-box">
+                <legend>Feel free to contact me</legend>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email" class="email-box" id="email">
+                <br><br>
+                <label for="message">Message</label>
+                <br>
+                <textarea name="message" class="message-box" id="message"></textarea>
+                <br><br>
+                <fieldset class="reply-query">
+                    <legend>Would you like a reply?</legend>
+                    <input type="radio" name="reply-query" id="reply-yes" value="Yes"> Yes<br><br>
+                    <input type="radio" name="reply-query" id="reply-no" value="No" checked> No<br>
                 </fieldset>
-            </form>
-        </div>
+                <br><br>
+                <button type="submit" class="submit-button"><br>Send Message<br><br></button>
+            </fieldset>
+        </form>
     </section>
-    <!-- end of contact form -->
-    <!-- start of footer -->
-    <footer>
+    <hr>
+    <footer class="footer">
         <br class="mobile-first"><br class="mobile-first">
-        <p> &copy; 2019 Lyan Kent</p>
+        <div class="content">
+            <p class="copyright">Graham Wandless &copy; 2019</p>
+        </div>
     </footer>
     <div class="back-to-top">
         <a href="#">Back to Top</a>
     </div>
-    <!-- end of footer -->
     <br class="mobile-first"><br class="mobile-first">
-    <!-- start of javascript for nav toggle -->
     <script>
         let mainNav = document.getElementById('js-menu');
         let navBarToggle = document.getElementById('js-navbar-toggle');
         let symbolToggle = document.getElementById('symbol-toggle');
 
 
-        navBarToggle.addEventListener('click', function () {
+        navBarToggle.addEventListener('click', function() {
             mainNav.classList.toggle('active');
             if (symbolToggle.classList.contains('fa-bars')) {
                 symbolToggle.classList.remove('fa-bars');
@@ -286,7 +200,4 @@
             }
         });
     </script>
-    <!-- end of javascript for nav toggle -->
 </body>
-
-</html>
