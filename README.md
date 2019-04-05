@@ -28,4 +28,4 @@ You are going to have to download and add the files from your Project 5 into thi
 **You Must Have a Perfect Project 5 Repo. Make all changes to P5 before starting this project. Your grade depends on this. If you need help, ask me for help.**
 
 
-(https://github.com/cynthiateeters/nav-demo/blob/master/readme-src/iphone-5-screenshot.PNG)
+![GH Pages](https://github.com/cynthiateeters/nav-demo/blob/master/readme-src/iphone-5-screenshot.PNG)
