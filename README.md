@@ -29,3 +29,5 @@ You are going to have to download and add the files from your Project 5 into thi
 
 
 ![GH Pages](https://github.com/RVCC-CISY225-S2019/project-6-redhat2010/blob/master/readme-src/iphone-5-screenshot.PNG)
+
+![GH Pages](https://github.com/RVCC-CISY225-S2019/project-6-redhat2010/blob/master/readme-src/home-pc-screenshot.JPG)
